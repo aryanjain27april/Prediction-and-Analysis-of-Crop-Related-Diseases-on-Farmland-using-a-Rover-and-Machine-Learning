@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Tomato_Early_blight_leaf</folder>
+	<filename>1234080-Early-Blight.jpg</filename>
+	<path>D:\Programs\8th_Sem_Proj\test\Tomato_Early_blight_leaf\1234080-Early-Blight.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>768</width>
+		<height>768</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Early_Blight</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>152</xmin>
+			<ymin>84</ymin>
+			<xmax>700</xmax>
+			<ymax>697</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Tomato_Early_blight_leaf</folder>
+	<filename>early-blight-or-target-spot-alternaria-solani-lesions-on-a-tomato-BH3TH0.jpg</filename>
+	<path>D:\Programs\8th_Sem_Proj\train\Tomato_Early_blight_leaf\early-blight-or-target-spot-alternaria-solani-lesions-on-a-tomato-BH3TH0.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1083</width>
+		<height>1390</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Early_Blight</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>114</xmin>
+			<ymin>131</ymin>
+			<xmax>947</xmax>
+			<ymax>1265</ymax>
+		</bndbox>
+	</object>
+</annotation>

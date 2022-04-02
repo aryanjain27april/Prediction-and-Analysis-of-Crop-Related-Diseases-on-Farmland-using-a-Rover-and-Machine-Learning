@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Tomato_Early_blight_leaf</folder>
+	<filename>Shoemaker_7068.JPG.jpg</filename>
+	<path>D:\Programs\8th_Sem_Proj\test\Tomato_Early_blight_leaf\Shoemaker_7068.JPG.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>600</width>
+		<height>450</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Early_Blight</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>96</ymin>
+			<xmax>577</xmax>
+			<ymax>409</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Tomato_leaf</folder>
+	<filename>flies.jpg</filename>
+	<path>D:\Programs\8th_Sem_Proj\train\Tomato_leaf\flies.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>3888</width>
+		<height>2592</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Healthy</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2</xmin>
+			<ymin>25</ymin>
+			<xmax>3868</xmax>
+			<ymax>2592</ymax>
+		</bndbox>
+	</object>
+</annotation>
