@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Tomato_mold_leaf</folder>
+	<filename>top-leaf-mold-Fulva-fulvea-WN.jpg</filename>
+	<path>D:\8th_Sem_Proj\Dataset\8th_Sem_Proj\train\Tomato_mold_leaf\top-leaf-mold-Fulva-fulvea-WN.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>525</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>mold_leaf</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>183</xmin>
+			<ymin>124</ymin>
+			<xmax>750</xmax>
+			<ymax>395</ymax>
+		</bndbox>
+	</object>
+</annotation>

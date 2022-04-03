@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Tomato_mold_leaf</folder>
+	<filename>Ormvn.jpg</filename>
+	<path>D:\8th_Sem_Proj\Dataset\8th_Sem_Proj\train\Tomato_mold_leaf\Ormvn.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>4000</width>
+		<height>6000</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>mold_leaf</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>996</xmin>
+			<ymin>834</ymin>
+			<xmax>3221</xmax>
+			<ymax>4503</ymax>
+		</bndbox>
+	</object>
+</annotation>
