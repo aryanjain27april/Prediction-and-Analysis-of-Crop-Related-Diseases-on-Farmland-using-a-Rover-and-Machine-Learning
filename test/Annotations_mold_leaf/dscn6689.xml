@@ -1,0 +1,50 @@
+<annotation>
+	<folder>Tomato mold leaf</folder>
+	<filename>dscn6689.jpg</filename>
+	<path>C:\Users\admin\OneDrive\Documents\GitHub\8th_Sem_Proj\test\Tomato mold leaf\dscn6689.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1024</width>
+		<height>768</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>mold</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>136</xmin>
+			<ymin>112</ymin>
+			<xmax>863</xmax>
+			<ymax>661</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>healthy</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>102</xmin>
+			<ymin>436</ymin>
+			<xmax>316</xmax>
+			<ymax>637</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>mold</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>349</xmin>
+			<ymin>526</ymin>
+			<xmax>480</xmax>
+			<ymax>661</ymax>
+		</bndbox>
+	</object>
+</annotation>
