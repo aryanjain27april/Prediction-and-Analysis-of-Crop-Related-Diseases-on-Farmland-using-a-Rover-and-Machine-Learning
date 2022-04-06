@@ -1,0 +1,50 @@
+<annotation>
+	<folder>Tomato Septoria leaf spot</folder>
+	<filename>55830b60a7cf2.image.jpg</filename>
+	<path>C:\Users\admin\OneDrive\Documents\GitHub\8th_Sem_Proj\test\Tomato Septoria leaf spot\55830b60a7cf2.image.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1173</width>
+		<height>1766</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>septoria</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>171</xmin>
+			<ymin>239</ymin>
+			<xmax>578</xmax>
+			<ymax>490</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>septoria</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>187</xmin>
+			<ymin>530</ymin>
+			<xmax>689</xmax>
+			<ymax>1497</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>septoria</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>760</xmin>
+			<ymin>246</ymin>
+			<xmax>1173</xmax>
+			<ymax>696</ymax>
+		</bndbox>
+	</object>
+</annotation>
