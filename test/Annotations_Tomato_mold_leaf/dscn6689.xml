@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Tomato_mold_leaf</folder>
+	<filename>dscn6689.jpg</filename>
+	<path>D:\8th_Sem_Proj\Dataset\8th_Sem_Proj\test\Tomato_mold_leaf\dscn6689.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1024</width>
+		<height>768</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>mold_leaf</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>148</xmin>
+			<ymin>122</ymin>
+			<xmax>843</xmax>
+			<ymax>653</ymax>
+		</bndbox>
+	</object>
+</annotation>

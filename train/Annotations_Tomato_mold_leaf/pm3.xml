@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Tomato_mold_leaf</folder>
+	<filename>pm3.jpg</filename>
+	<path>D:\8th_Sem_Proj\Dataset\8th_Sem_Proj\train\Tomato_mold_leaf\pm3.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>2592</width>
+		<height>1944</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>mold_leaf</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>83</xmin>
+			<ymin>341</ymin>
+			<xmax>2559</xmax>
+			<ymax>1735</ymax>
+		</bndbox>
+	</object>
+</annotation>
