@@ -36,6 +36,7 @@ The objective of the project is to build an unmanned robotic vehicle which is ab
 The figure 1 shows the flow of data for the overall application. According to the proposed algorithm defined previously the idea of the project is to detect the plant disease and display it if present. The image can be captured using a camera module. Once the image is captured the image is processed it is fed to the proposed model. Once the disease is detected it shows the disease and the farmer can take appropriate action..
 
 ![Fig.1. Proposed Work Flow](Images_For_Readme/Aspose.Words.36aacd25-7d9e-40d5-8192-f6e7c6161930.001.jpeg)
+FIG.1.
 
 6. # 6. Proposed Hardware Design
 As mentioned earlier, the design chosen for this particular application is that if the Rocker Bogie design. It consists of one fulcrum which has two wheels and the third wheel is on its extended end. 
@@ -43,12 +44,15 @@ As mentioned earlier, the design chosen for this particular application is that 
 For a better understanding refer fig 2 for a 2D illustration of the design. This was made using AutoCAD..
 
 ![Fig.2. 2D Model Of Rover](Images_For_Readme/Aspose.Words.36aacd25-7d9e-40d5-8192-f6e7c6161930.002.png)
+FIG.2.
 
 Further refer fig 4 for a 3D illustration of the design. This was made using Fusion 360. The frame of the rover was constructed using 1 1/4 inch PVC. The fig 3 shows the physical properties of the Rover.
 
 ![Fig.3. Physical Properties Of Rover](Images_For_Readme/Aspose.Words.36aacd25-7d9e-40d5-8192-f6e7c6161930.003.png)
+FIG.3.
 
 ![Fig.4. 3D Model Of Rover](Images_For_Readme/Aspose.Words.36aacd25-7d9e-40d5-8192-f6e7c6161930.004.png)
+FIG.4.
 
 To check if the designed structure was safe for rough use, a simulation was run using Fusion 360. In this simulation, the attached wheels and the legs of the Rover were subjected to a 10N force, as seen from fig 3.1.3 (a). This was done to simulate a drop test of the Rover from a height of 25cm. To justify the calculation refer to the expression 3.1.1 below:
 
@@ -67,8 +71,10 @@ This results in Force (F) being equal to 10N.
 The safety factor was still found to be in the required ranges. This can be further viewed in fig 5 and fig 6 it shows the simulation results for the rover under the applied force.
 
 ![Fig.5. Application Of 10N Force](Images_For_Readme/Aspose.Words.36aacd25-7d9e-40d5-8192-f6e7c6161930.005.png)
+FIG.5.
 
 ![Fig.6. Safety Factor After Application Of Force](Images_For_Readme/Aspose.Words.36aacd25-7d9e-40d5-8192-f6e7c6161930.006.png)
+FIG.6.
 
 7. # 7. Litrature Survey
 
@@ -85,6 +91,7 @@ In this section, the process of implementation of the developed algorithm is pre
 The data used for this research is the PlantDoc dataset [5]. The data is processed according to the flowchart shown below in fig 7.
 
 ![Fig.7. Data Prepration](Images_For_Readme/Aspose.Words.36aacd25-7d9e-40d5-8192-f6e7c6161930.007.png)
+FIG.7.
 
 The manual selection is done using a program called “lableimg”. This can be used to define the bounding boxes for the leaves contained within the dataset to make it easier for the training. This procedure is called annotations. Annotations are stores as xml files. Since the algorithm used is YOLO v5 (You Only Look Once) [6] and it doesn't accept xml files as input. Conversion of the data is required.
 
@@ -99,6 +106,7 @@ Once the data has been processed appropriately the newly obtained dataset will b
 The dataset is used for training and the convergence is computed. Once the calculation is made it checks for loss in the calculation. If the loss is less than the threshold then the disease detection model will be deployed. If the loss is present and above the threshold the model will be trained once again to minimize the loss.
 
 ![Fig.8. Flow Chart Of The Proposed Algorithm](Images_For_Readme/Aspose.Words.36aacd25-7d9e-40d5-8192-f6e7c6161930.008.png)
+FIG.8.
 
 Once the model is loaded the input images are loaded into the model as well. The images are then classified based on the trained data. Non-Max Selection is performed to reduce the number of duplicated predictions and finally the output is displayed.
 
@@ -106,6 +114,7 @@ Once the model is loaded the input images are loaded into the model as well. The
 The testing and experimentation for this project was done with the tomato plant and its related diseases which are; Early Blight, Mold, Bacterial Spot, Late Blight, Mosaic Virus, Yellow Virus and Septoria Leaf Spot. Shown below is the results of the output from the algorithm used. The figure shows the test results for Early Blight, Mold and Healthy Leaves.
 
 ![Fig.9. Test Results](Images_For_Readme/Aspose.Words.36aacd25-7d9e-40d5-8192-f6e7c6161930.010.png)
+FIG.9.
 
 10. # 10. Conclusions
 The constructed rover is able to traverse almost any terrain it encounters with ease and this makes it ideal to traverse farmland which is known for being uneven. The rover is a mobile unit that can be used to detect diseases on crops. This will allow early detection of these diseases and quick action can be taken. Physical labor of the farmer can be reduced using this. The diseases for tomato plant were tested and results were obtained. This can definitely be improved upon with more data and training. Increasing the training data allows the prediction to be more accurate and reliable.
