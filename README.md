@@ -17,40 +17,33 @@
 ***Abstract* — Agriculture is an important part of our community as it provides us with our essential staples for living. Some of those essential commodities include rice, corn, vegetables and fruits. These are just some of the basic outputs from agriculture. Hence it is important to empowering small holder farmers through this project. The project focuses on detecting and diagnosing plants on the various diseases they might suffer from. Early detection of these diseases can reduce the likelihood of crops dying. At the same time, it will reduce the risk of the diseases being transferred to other crops. In this project we are providing farmers with a rover that helps him find diseased crops on his land without him personally inspecting his plants. This in turn reduces the work load on the farmer. To obtain the desired results we used the Rocker Bogie Rover design for the rover as it is fully capable of traversing most of the terrain it encounters. For the detection of diseases, we have implemented the Complex Neural Network (CNN) Machine Learning algorithm along with Image Processing.** 
 
 Keywords—Agriculture, Rover, Plants, Diseases, Healthy, Early Blight, Late Blight, Septoria, Mold, Yellow Virus, Mosaic Virus, Bacterial Spot, Algorithm, AI, ML, DL.
-1. # Introduction Remarks
+1. # 1. Introduction Remarks
 The objective of the project is to build an unmanned robotic vehicle which is able to go to different parts of farmland, this eliminates the need for the farmer to oversee his crops manually. The Rover will be equipped with a camera module which automatically identifies and classifies various plants and its diseases by making use of Machine Learning and Image Processing techniques. This will allow the farmer to identify unhealthy plants and take the necessary steps. After conducting some research on the types of terrain the Rover must encounter, it was found that the Rocker-Bogie suspension type was best suited for this application as its design as it has two fixed fulcrums and one dynamic point which allows for a wave-like motion. The reason this domain for this project was chosen was our collective interest in Machine Learning and Mobility.
 
 ` `The fact that machines can learn from data, make decisions and its limitless real-time applications exist in almost every domain. We decided to keep our project around ML and Micro-Controller programming to give us time to learn and confirm our interest in it. Taking the opportunity to construct a rover with a unique suspension system to traverse almost every terrain is a challenge in itself and one that we welcome as it gives us a chance to learn something that's outside our current domain of study. We choose agriculture as our domain of operation as it allows us to contribute to the preservation of nature. Detection of diseases in plants early will lead to better overall yield of crops and if the diseases are of a communicable nature, it can be prevented post haste before any actual damage is done.
-1. # Motivation Obtained For Taking Up The Work
+2. # 2. Motivation Obtained For Taking Up The Work
 The reason this domain for our project was chosen was our collective interest in Machine Learning. The fact that machines can learn from data, make decisions and its limitless real-time applications exist in almost every domain. We decided to keep our project around ML and Micro-Controller programming to give us time to learn and confirm our interest in it. Taking the opportunity to construct a rover with a unique suspension system to traverse almost every terrain is a challenge in itself and one that we welcome as it gives us a chance to learn something that’s outside our current domain of study. We choose agriculture as our domain of operation as it allows us to contribute to the preservation of nature. Detection of diseases in plants early will lead to better overall yield of crops. Making use of technology such as this will give educate the farmers about the existing technology.
-1. # Objectives
+3. # 3. Objectives
 The objective of the project is to build an unmanned robotic vehicle which is able to go to different parts of farmland, this eliminates the need for the farmer to oversee his crops manually. The Rover will be equipped with a camera module which automatically identifies and classifies various plants and its diseases by making use of a Machine Learning algorithm. This will allow the farmer to identify unhealthy plants and take the necessary steps. After performing some research on the types of terrain the Rover must encounter, it was found that the Rocker-Bogie suspension type was best suited for its design as it has two fixed fulcrums and one dynamic point which allows for a wave-like motion.
-1. # Application of the Project Work Carried Out
+4. # 4. Application of the Project Work Carried Out
 The objective of the project is to build an unmanned robotic vehicle which is able to go to different parts of farmland, this eliminates the need for the farmer to oversee his crops manually. The Rover will be equipped with a camera module which automatically identifies and classifies various plants and its diseases by making use of a Machine Learning algorithm. This will allow the farmer to identify unhealthy plants and take the necessary steps. After performing some research on the types of terrain the Rover must encounter, it was found that the Rocker-Bogie suspension type was best suited for its design as it has two fixed fulcrums and one dynamic point which allows for a wave-like motion.
-1. # Description of Project
+5. # 5. Description of Project
 The figure 1 shows the flow of data for the overall application. According to the proposed algorithm defined previously the idea of the project is to detect the plant disease and display it if present. The image can be captured using a camera module. Once the image is captured the image is processed it is fed to the proposed model. Once the disease is detected it shows the disease and the farmer can take appropriate action..
 
-![](Aspose.Words.36aacd25-7d9e-40d5-8192-f6e7c6161930.001.jpeg)
+![Fig.1. Proposed Work Flow](Images_For_Readme/Aspose.Words.36aacd25-7d9e-40d5-8192-f6e7c6161930.001.jpeg)
 
-1. Proposed Work Flow
-1. # Proposed Hardware Design
+6. # 6. Proposed Hardware Design
 As mentioned earlier, the design chosen for this particular application is that if the Rocker Bogie design. It consists of one fulcrum which has two wheels and the third wheel is on its extended end. 
 
 For a better understanding refer fig 2 for a 2D illustration of the design. This was made using AutoCAD..
 
-![](Aspose.Words.36aacd25-7d9e-40d5-8192-f6e7c6161930.002.png)
-
-1. 2D Model Of Rover
+![Fig.2. 2D Model Of Rover](Images_For_Readme/Aspose.Words.36aacd25-7d9e-40d5-8192-f6e7c6161930.002.png)
 
 Further refer fig 4 for a 3D illustration of the design. This was made using Fusion 360. The frame of the rover was constructed using 1 1/4 inch PVC. The fig 3 shows the physical properties of the Rover.
 
-![](Aspose.Words.36aacd25-7d9e-40d5-8192-f6e7c6161930.003.png)
+![Fig.3. Physical Properties Of Rover](Images_For_Readme/Aspose.Words.36aacd25-7d9e-40d5-8192-f6e7c6161930.003.png)
 
-1. 2D Model Of Rover
-
-![](Aspose.Words.36aacd25-7d9e-40d5-8192-f6e7c6161930.004.png)
-
-1. 3D Model Of Rover
+![Fig.4. 3D Model Of Rover](Images_For_Readme/Aspose.Words.36aacd25-7d9e-40d5-8192-f6e7c6161930.004.png)
 
 To check if the designed structure was safe for rough use, a simulation was run using Fusion 360. In this simulation, the attached wheels and the legs of the Rover were subjected to a 10N force, as seen from fig 3.1.3 (a). This was done to simulate a drop test of the Rover from a height of 25cm. To justify the calculation refer to the expression 3.1.1 below:
 
@@ -68,15 +61,11 @@ This results in Force (F) being equal to 10N.
 
 The safety factor was still found to be in the required ranges. This can be further viewed in fig 5 and fig 6 it shows the simulation results for the rover under the applied force.
 
-![](Aspose.Words.36aacd25-7d9e-40d5-8192-f6e7c6161930.005.png)
+![Fig.5. Application Of 10N Force](Images_For_Readme/Aspose.Words.36aacd25-7d9e-40d5-8192-f6e7c6161930.005.png)
 
-1. Application Of 10N Force
+![Fig.6. Safety Factor After Application Of Force](Images_For_Readme/Aspose.Words.36aacd25-7d9e-40d5-8192-f6e7c6161930.006.png)
 
-![](Aspose.Words.36aacd25-7d9e-40d5-8192-f6e7c6161930.006.png)
-
-1. Safety Factor After Application Of Force
-
-1. # Litrature Survey
+7. # 7. Litrature Survey
 
 |Sl no.|Year of Publication|Title|Authors|Publication|Key Findings|
 | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -85,42 +74,32 @@ The safety factor was still found to be in the required ranges. This can be furt
 |3|2020|An Agricultural Rover for smart agricultural practices [3]|Dr.N.Ramchandra, Sameeksha, T.Shivani, Ch.Bala Bhaskar, G.Tarun|International Research Journal of Engineering and Technology (IRJET)|<p>Provides farmers with a complete substitute for the farm tractor.</p><p>It is equipped to perform nearly all of the major farm practices such as, ploughing, seeding, weeding, fertilizer spraying, watering, etc.</p>|
 |4|2020|DESIGN OF ROCKER BOGIE MECHANISM [4]|Para Bimal Saraiya|International Research Journal of Engineering and Technology (IRJET)|The rocker and boogie suspension system is best suited for all terrain rovers as it allows a wave like motion which makes it easier to navigate difficult terrain. Used by NASA. Made using PVC for shock absorption.|
 
-1. # Algorithm
+8. # 8. Algorithm
 In this section, the process of implementation of the developed algorithm is presented in a nutshell.
-1. ## *Data Pre-Processing*
+## *Data Pre-Processing*
 The data used for this research is the PlantDoc dataset [5]. The data is processed according to the flowchart shown below in fig 7.
 
-![](Aspose.Words.36aacd25-7d9e-40d5-8192-f6e7c6161930.007.png)
-
-1. Data Prepration
+![Fig.7. Data Prepration](Images_For_Readme/Aspose.Words.36aacd25-7d9e-40d5-8192-f6e7c6161930.007.png)
 
 The manual selection is done using a program called “lableimg”. This can be used to define the bounding boxes for the leaves contained within the dataset to make it easier for the training. This procedure is called annotations. Annotations are stores as xml files. Since the algorithm used is YOLO v5 (You Only Look Once) [6] and it doesn't accept xml files as input. Conversion of the data is required.
 
 Pre-processing of the data is done according to the specifications of the algorithm, the YOLO v5 algorithm has a specific resolution of images it can accept as input. The default image resolution is 640×640 px. Image Cleansing converts the RGB image to the appropriate file format for the algorithm to recognize. Augmentation increases the diversity of the original data without collecting more data.
 
 Formating finalizes the readable formats of the image and makes any last minute changes as needed. After all of these steps we obtain the processed form of the data.
-1. ## *Model Specifications*
+## *Model Specifications*
 The figure 8 shows the progrma flow of the YOLO v5 algorithm used for this research. It is a Complex Neural Net Algorithm (CNN).
 
 Once the data has been processed appropriately the newly obtained dataset will be loaded into the algorithm and as mentioned the bounding boxes that were defined are analyzed. The parameters of the same are optimized and once the requirements are met the neural net is initialized.
 
 The dataset is used for training and the convergence is computed. Once the calculation is made it checks for loss in the calculation. If the loss is less than the threshold then the disease detection model will be deployed. If the loss is present and above the threshold the model will be trained once again to minimize the loss.
 
-![](Aspose.Words.36aacd25-7d9e-40d5-8192-f6e7c6161930.008.png)
-
-1. Flow Chart Of The Proposed Algorithm
+![Fig.8. Flow Chart Of The Proposed Algorithm](Images_For_Readme/Aspose.Words.36aacd25-7d9e-40d5-8192-f6e7c6161930.008.png)
 
 Once the model is loaded the input images are loaded into the model as well. The images are then classified based on the trained data. Non-Max Selection is performed to reduce the number of duplicated predictions and finally the output is displayed.
-1. # Results & Discussions
+9. # 9. Results & Discussions
 The testing and experimentation for this project was done with the tomato plant and its related diseases which are; Early Blight, Mold, Bacterial Spot, Late Blight, Mosaic Virus, Yellow Virus and Septoria Leaf Spot. Shown below is the results of the output from the algorithm used. The figure shows the test results for Early Blight, Mold and Healthy Leaves.
 
-![](Aspose.Words.36aacd25-7d9e-40d5-8192-f6e7c6161930.009.png)
-
-1. Training and Validation Loss
-
-![](Aspose.Words.36aacd25-7d9e-40d5-8192-f6e7c6161930.010.png)
-
-1. Test Results
+![Fig.9. Test Results](Images_For_Readme/Aspose.Words.36aacd25-7d9e-40d5-8192-f6e7c6161930.010.png)
 
 1. # Conclusions
 The constructed rover is able to traverse almost any terrain it encounters with ease and this makes it ideal to traverse farmland which is known for being uneven. The rover is a mobile unit that can be used to detect diseases on crops. This will allow early detection of these diseases and quick action can be taken. Physical labor of the farmer can be reduced using this. The diseases for tomato plant were tested and results were obtained. This can definitely be improved upon with more data and training. Increasing the training data allows the prediction to be more accurate and reliable.
@@ -132,7 +111,6 @@ To further improve upon this project a number of things can be done. Firstly, th
 1. An Agricultural Rover for smart agricultural practices, May 2020,  Dr.N.Ramchandra, Sameeksha, T.Shivani, Ch. Bala Bhaskar, G. Tarun, 1Professor and HOD, Dept of Electrical and Electronics Engineering, St.Martin’s Engineering College, Hyderabad, Telangana, India B.Tech Students, St.Martin’s Engineering College, Hyderabad, Telangana, India
 1. DESIGN OF ROCKER BOGIE MECHANISM, Aug 2020, Para Bimal Saraiya, Dept. of Mechanical Engineering, Thakur College of Engineering & Technology, 	Mumbai, India
 1. Singh, Davinder & Jain, Naman & Jain, Pranjali & Kayal, Pratik & Kumawat, Sudhakar & 	Batra, Nipun. (2020). PlantDoc: A Dataset for Visual Plant Disease Detection. 249-253. 	10.1145/3371158.3371196.
-
-[6]	https://zenodo.org/badge/latestdoi/264818686
+1. https://zenodo.org/badge/latestdoi/264818686
 
 
